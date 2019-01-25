@@ -1,0 +1,22 @@
+language: ruby
+cache: bundler
+
+rvm:
+- 2.5
+
+before_install:
+- gem update --system
+- gem install bundler
+
+stages:
+  - default
+
+jobs:
+  include:
+    stage: default
+    name: "Main Application"
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: BRvbrBhBTgpsmhwlZ97JVBKR9q1aOJmW5jt9JuMInCmxKu8xNcf6D3uw7u3QZa9LNmbRCgg4yk4Zht6lEAvTtOizLV+lDho9fj1PEde39MBOjxT4hgsfl71OkU/NfJeOwSCEqYUvhOei/bCEWSPFLvP0qdbhDzaKFbgzvybnYwhBGK07VnV/L9+Y8OqYP6noVO/IkRgGQF+lJBB6/9AmlJgFzxZi1v3uH1HCf9kyOahJewCLX8t4IkRxHcikAVi3z+G72yHugHY9CUXYJAG1ld599wEB3MQj1fR+lbCbmlPsGy6p21GJwedZw19repMzF4kyDxzLLjzHFThUNAiqP1R4KEVN5cqSMc2RF/6WV24nbmuak9EnRwIZ2qUY0oT3to0ObJuo2M7KOWtTiVgSU+nDbWEt+BFRyj+whVZQP2nwjv11rp7XtUlMifp+WKmqH7naJ3SHQh+jp6Ea1Sm4dtSpbYWfazUGUXaBE1WNW6xOoFzaPF8I/hMKw5MmO85gNykeQIOPNFzddUfS0Q2tO0d1lOgdnE3zoVfIB5zdh2s33k2cN88zQ7oysTXMwuhIihJ+3i0L7Exet7oIChOGzGQdx7nEtax0Y3zdTSdm+GSGfqjIS0qMlzq8UKFFmYHVNbIlr51ratWyd9KO3X/hHBCxM2t6TF/Yk0yfXjMkhho=
