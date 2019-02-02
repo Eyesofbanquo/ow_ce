@@ -1,0 +1,181 @@
+[   
+    {
+        "name": "Assault",
+        "description": "Assault, sometimes referred to as Two Capture Point (2CP), is a game mode in which the attacking and defending teams must attempt to take or defend capture points across the map. Defenders always have the same spawn point, whether defending the first or second point, while the attacker's spawn changes depending on the point they are attempting to capture. It should be noted that every Assault map has an almost-immediate choke point, and that the defenders' spawn is just behind the second point, making the second push just as difficult as breaking the choke.",
+        "image": "/path/to/assault.image",
+        "maps": [
+            {
+                "name": "Hanamura",
+                "image": "pathtoimage"
+            },
+            {
+                "name": "Horizon Lunar Colony",
+                "image": ""
+            },
+            {
+                "name": "Temple of Anubis",
+                "image": ""
+            },
+            {
+                "name": "Volskaya Industries",
+                "image": ""
+            }
+        ]
+    },
+
+    {
+        "name": "Escort",
+        "description": "In Escort, there is an attacking and a defending team. Teams' roles are determined randomly when the map is chosen, and once the match is complete, roles are swapped.\nThe attacking team aims to escort a payload across the map to the objective, while the defending team aims to stop them.\nAt the start of each round, the defending team is allocated some time to set up defenses before the attacking team is allowed out of their spawn area. When the set up timer runs out, attackers may leave their spawn area and another timer begins counting down. Each checkpoint reached adds extra time to the timer.\nIf an attacker is within range of the payload when the timer expires, or shortly beforehand, Overtime will be activated. If the attacking team manages to get to an intermediate checkpoint during Overtime, the extra time is added and Overtime ends, with the game proceeding as normal.",
+        "image": "path/to/image.img",
+        "maps": [
+            {
+                "name": "Dorado",
+                "image": ""
+            },
+            {
+                "name": "Rialto",
+                "image": ""
+            },
+            {
+                "name": "Route 66",
+                "image": ""
+            },
+            {
+                "name": "Junkertown",
+                "image": ""
+            },
+            {
+                "name": "Watchpoint: Gibraltar",
+                "image": ""
+            }
+        ]
+
+    },
+
+    {
+        "name": "Hybrid",
+        "description": "Hybrid (also known as Assault/Escort) is a combination of the game modes Assault and Escort. It is one of the 4 main game modes in Overwatch.",
+        "image": "path",
+        "maps": [
+            {
+                "name": "Numbani",
+                "image": ""
+            },
+            {
+                "name": "Hollywood",
+                "image": ""
+            },
+            {
+                "name": "King's Row",
+                "image": ""
+            },
+            {
+                "name": "Eichenwalde",
+                "image": ""
+            },
+            {
+                "name": "Blizzard World",
+                "image": ""
+            }
+        ]
+    },
+    {
+        "name": "Control",
+        "description": "On Control, two teams fight over a series of objective areas in a best-of-three format. This means that there is no distinction to attacking or defending teams like in other game modes.[1]\nOnce the match has started and both teams have left the spawn, the control point takes 30 seconds to unlock. Once it unlocks, the objective area can be captured by either team. To capture the checkpoint, members of only one team must stand on the point for a given time, speed increasing with the number of teammates present. Once captured, the team must defend the point, while the other must gain control of the area by driving the enemies out and capturing it themselves. Note that the objective cannot be captured if a member of the enemy team is also on the control point. The objective score will slowly progress in favor of the team controlling point. The round is won once one team reaches 100%. The first team to win two rounds wins the match.\nEach of the Control maps has three objective areas, randomly chosen for every round.\nUntil the end of Season 5, the Competitive Play match used to be played in a format of best of five rather than best of three. The map sectors were randomized for the first three rounds and then reshuffled if the match reached further, guaranteeing each map section to occur at least once. As of Season 6 the Competitive Play matches are also played in the best of three format.",
+        "image": "path",
+        "maps": [
+            {
+                "name": "Nepal",
+                "image": "img",
+                "maps": [
+                    {
+                        "name": "Village",
+                        "image": "Shrine"
+                    },
+                    {
+                        "name": "Shrine",
+                        "image": "Shrine"
+                    },
+                    {
+                        "name": "Sanctum",
+                        "image": "Sanctum"
+                    }
+                ]
+            },
+            {
+                "name": "Lijiang Tower",
+                "image": "img",
+                "maps": [
+                    {
+                        "name": "Night Market",
+                        "image": "Garden"
+                    },
+                    {
+                        "name": "Garden",
+                        "image": "Garden"
+                    },
+                    {
+                        "name": "Control Center",
+                        "image": "Control Center"
+                    }
+                ]
+            },
+            {
+                "name": "Ilios",
+                "image": "image",
+                "maps": [
+                    {
+                        "name": "Lighthoues",
+                        "image": "Image"
+                    }, 
+                    {
+                        "name": "Ruins",
+                        "image": "Image"
+                    },
+                    {
+                        "name": "Well",
+                        "image": "img"
+                    }
+                ]
+            },
+            {
+                "name": "Oasis",
+                "image": "image",
+                "maps": [
+                    {
+                        "name": "City Center",
+                        "image": "img"
+                    },
+                    {
+                        "name": "Gardens",
+                        "image": "img"
+                    },
+                    {
+                        "name": "University",
+                        "image": "img"
+                    }
+                ]
+            },
+            {
+                "name": "Busan",
+                "image": "img",
+                "maps": [
+                    {
+                        "name": "Downtown",
+                        "image": "img"
+                    },
+                    {
+                        "name": "Sanctuary",
+                        "image": "img"
+                    }, 
+                    {
+                        "name": "MEKA Base",
+                        "image": "img"
+                    }
+                ]
+            }
+
+        ]
+    }
+    
+]
