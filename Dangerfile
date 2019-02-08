@@ -17,3 +17,6 @@ end
 if git.commits.any? { |c| c.message !~ /^\[Finishes #\d+\]/ }
   fail "Must close ticket out by providing pivotaltracker tracking info"
 end
+
+# Commit linter
+commit_lint.check
