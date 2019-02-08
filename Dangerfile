@@ -12,3 +12,8 @@ warn("Big PR") if git.lines_of_code > 500
 if github.pr_body.length < 5
   fail "Please provide a summary in the Pull Request description"
 end
+
+# Fail if [Finishes #xxxxxx] does not exist
+if git.commits.any? { |c| c.message =~ /^\[Finishes #\d+\]/ }
+  fail "Must close ticket out by providing pivotaltracker tracking info"
+end
