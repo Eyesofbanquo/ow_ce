@@ -14,6 +14,6 @@ if github.pr_body.length < 5
 end
 
 # Fail if [Finishes #xxxxxx] does not exist
-if git.commits.any? { |c| c.message =~ /^\[Finishes #\d+\]/ }
+if git.commits.any? { |c| c.message !~ /^\[Finishes #\d+\]/ }
   fail "Must close ticket out by providing pivotaltracker tracking info"
 end
